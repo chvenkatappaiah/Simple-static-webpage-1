@@ -1,0 +1,27 @@
+@import 'variables.css';
+@import 'reset.css';
+@import 'components/header.css';
+@import 'components/hero.css';
+@import 'components/work.css';
+@import 'components/about.css';
+@import 'components/contact.css';
+@import 'components/footer.css';
+
+body {
+    font-family: var(--font-primary);
+    color: var(--black);
+    line-height: 1.5;
+    background: var(--white);
+}
+
+.container {
+    max-width: var(--container-width);
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 0 1rem;
+    }
+}
